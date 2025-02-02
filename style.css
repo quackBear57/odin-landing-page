@@ -1,0 +1,43 @@
+body {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin: 10px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh; /* I guess this is required to tell the browser to use 100% of the viewport */
+}
+
+.header {
+    /* height: 40px; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 15px;
+}
+
+.content {
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 400;
+}
