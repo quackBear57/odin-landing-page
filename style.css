@@ -1,5 +1,7 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #1F2937;
+  color: #F9FAF8;
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -8,70 +10,40 @@ body {
 }
 
 .header {
-  /* height: 50px; */
-  background: darkmagenta;
-  color: white;
-  font-weight: bold;
-  font-size: 32px;
-  /* justify-content: flex-start; */
-  /* align-items: center; */
-  padding: 10px;
+  font-weight: 900;
+  font-size: 48px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  font-size: 18px;
 }
 
 .content {
   align-self: stretch;
   display: flex;
   flex-grow: 1;
-}
-
-.main {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
   padding: 20px;
 }
 
-.card {
-  width: 300px;
-  padding: 16px;
+.footer {
+  padding: 10px;
+  text-align: center;
+  height: 40px;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-li {
-  padding: 8px 0px;
+  display: flex;
+  gap: 30px;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #E5E7EB;
   font-weight: 600;
-}
-
-.footer {
-  /* height: 72px; */
-  background: #eee;
-  color: darkmagenta;
-  padding: 10px;
-  text-align: center;
-}
-
-.sidebar {
-  width: 300px;
-  background: royalblue;
-  box-sizing: border-box;
-  padding: 10px;
-  color: white;
-  font-size: 14px;
-  flex-shrink: 0;
-}
-
-.card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
 }
