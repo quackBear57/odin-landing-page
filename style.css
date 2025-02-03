@@ -59,7 +59,10 @@ body {
 
 .main {
   padding: 0;
+  display: flex;
+  flex-direction: column;
   flex: 1;
+  gap: 8px;
 }
 
 .main-image {
@@ -114,6 +117,30 @@ body {
 .container3 {
   background-color: #E5E7EB;
   color: #1F2937;
+  padding: 70px 150px 70px 150px;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.quote-author {
+  font-weight: 800;
+  font-size: 16px;
+  text-align: right;
+}
+
+.subcontainer4 {
+  background-color: #3882F6;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.signup {
+  color: white;
+  font-size: 14px;
 }
 
 .footer {
@@ -135,13 +162,21 @@ ul {
   padding: 0;
   display: flex;
   gap: 30px;
-  /* background-color: #1F2937; */
 }
 
 a {
   text-decoration: none;
   color: #E5E7EB;
   font-weight: 600;
+}
+
+button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border-radius: 5px;
+  padding: 4px 20px;
+  font-weight: 800;
+  cursor: pointer;
 }
 
 #title-text {
@@ -151,4 +186,17 @@ a {
 #subtitle-text {
   font-size: 18px;
   color: #E5E7EB;
+}
+  
+#signup-imp {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+#signup-button1 {
+  border: none;
+}
+
+#signup-button2 {
+  border: 2px solid #E5E7EB;
 }
